@@ -218,6 +218,8 @@ class PiholeDataProvider: ObservableObject, Identifiable {
             return  UIConstants.Strings.Error.invalidResponse
         case .invalidAPIToken:
             return  UIConstants.Strings.Error.invalidAPIToken
+        case .cantAddNewListItem:
+            return  UIConstants.Strings.Error.cantAddNewListItem
         }
     }
     
